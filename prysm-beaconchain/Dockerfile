@@ -1,2 +1,2 @@
-FROM gcr.io/prysmaticlabs/prysm/beacon-chain:v3.1.0
+FROM gcr.io/prysmaticlabs/prysm/beacon-chain:stable
 MAINTAINER ZZL
