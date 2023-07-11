@@ -20,6 +20,5 @@ RUN  sed -i 's/archive\.ubuntu\.com/mirrors.aliyun.com/g' /etc/apt/sources.list 
 
 EXPOSE 1317/tcp 26656/tcp 26660/tcp 80/tcp
 
-# ENTRYPOINT ["nyxd start"]
+ENTRYPOINT ["nyxd start"]
 
-CMD ["bash"]
