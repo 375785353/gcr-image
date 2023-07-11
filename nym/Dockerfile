@@ -13,12 +13,13 @@ RUN  sed -i 's/archive\.ubuntu\.com/mirrors.aliyun.com/g' /etc/apt/sources.list 
      apt update && apt upgrade -y && apt install -y software-properties-common && \
      apt install -y curl make git wget net-tools && \
      wget ${NYM_REPOSITORY_URL} && tar xf nyxd-ubuntu-20.04.tar.gz && \
-     mv libwasmvm.x86_64.so /lib/x86_64-linux-gnu/ && mv nyxd /usr/bin/nyxd && \
+     mv libwasmvm.x86_64.so /lib/x86_64-linux-gnu/ && mv build/nyxd /usr/bin/nyxd && \
      chmod 755 /usr/bin/nyxd && \
      apt remove -y software-properties-common make git && \
      rm -rf /var/lib/apt
 
 EXPOSE 1317/tcp 26656/tcp 26660/tcp 80/tcp
 
-ENTRYPOINT ["nyxd start"]
+# ENTRYPOINT ["nyxd start"]
 
+CMD ["bash"]
