@@ -4,7 +4,7 @@ ARG GID=10000
 ARG GROUP=nym
 ARG UID=10000
 ARG USER=nym
-ARG NYM_VERSION=v0.32.0
+ARG NYM_VERSION=v0.31.9
 ARG NYM_REPOSITORY_URL=https://github.com/nymtech/nyxd/releases/download/${NYM_VERSION}/nyxd-ubuntu-20.04.tar.gz
 
 
