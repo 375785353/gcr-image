@@ -1,2 +1,2 @@
-FROM gcr.io/prysmaticlabs/prysm/validator:v4.0.7
+FROM gcr.io/prysmaticlabs/prysm/validator:v4.1.1
 MAINTAINER ZZL
