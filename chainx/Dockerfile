@@ -1,2 +1,2 @@
-FROM chainxorg/chainx:v5.0.0
+FROM chainxorg/chainx:chainx_babe_fix
 MAINTAINER ZZL
