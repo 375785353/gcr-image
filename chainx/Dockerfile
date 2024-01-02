@@ -1,2 +1,2 @@
-FROM chainxorg/chainx:v5.2.0
+FROM chainxorg/chainx:v5.2.2
 MAINTAINER ZZL
